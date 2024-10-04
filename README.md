@@ -43,3 +43,5 @@ The speechToText summary will need to have a role attached which grants the foll
 1 x s3 bucket (which triggers the speechToText lambda)
 
 Enable the titan lite model in aws bedrock
+
+1 x iam policy with permissions to upload to s3 - add secret keys to the front end env variables
