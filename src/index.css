@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Merge borders */
+  margin: 20px 0; /* Margin above and below the table */
+  font-size: 16px; /* Font size for table text */
+  text-align: left; /* Align text to the left */
+}
+
+/* Style for table headers */
+th {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 12px; /* Padding around text */
+  border: 1px solid #dddddd; /* Light gray border */
+}
+
+/* Style for table cells */
+td {
+  padding: 12px; /* Padding around text */
+  border: 1px solid #dddddd; /* Light gray border */
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #ddd; /* Darker gray on hover */
+}
